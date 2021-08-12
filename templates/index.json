@@ -43,6 +43,7 @@
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "add_image_padding": false,
+        "show_image_outline": true,
         "show_vendor": false
       }
     },
@@ -79,17 +80,11 @@
         "color_scheme": "background-1",
         "layout": "image_first"
       }
-    },
-    "1628630073811bdd9b": {
-      "type": "ba13342270f74f68a38040578fb0396f-builder-io",
-      "settings": {
-      }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
-    "image_text",
-    "1628630073811bdd9b"
+    "image_text"
   ]
 }
