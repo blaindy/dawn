@@ -13,16 +13,8 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop all",
-<<<<<<< HEAD
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-=======
             "button_link_1": "shopify://collections/all",
             "button_label_2": ""
->>>>>>> f17c57c48beda910584daad6c35c4cfb2ed3cec5
           }
         }
       },
