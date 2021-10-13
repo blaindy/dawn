@@ -64,6 +64,12 @@
         "type_body_font": {
           "label": "Fontti",
           "info": "Muun fontin valitseminen voi vaikuttaa kauppasi nopeuteen. [Lue lisää järjestelmäfonteista.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
+        },
+        "heading_scale": {
+          "label": "Fonttikoon skaala"
+        },
+        "body_scale": {
+          "label": "Fonttikoon skaala"
         }
       }
     },
@@ -117,21 +123,6 @@
     "social-media": {
       "name": "Sosiaalinen media",
       "settings": {
-        "share_facebook": {
-          "label": "Jaa Facebookissa"
-        },
-        "share_twitter": {
-          "label": "Twiittaa Twitterissä"
-        },
-        "share_pinterest": {
-          "label": "Pinnaa Pinterestissä"
-        },
-        "header__1": {
-          "content": "Some-jakamisen vaihtoehdot"
-        },
-        "header__2": {
-          "content": "Sosiaalisen median tilit"
-        },
         "social_twitter_link": {
           "label": "Twitter",
           "info": "https://twitter.com/shopify"
@@ -500,25 +491,6 @@
           "label": "Näytä tekijä"
         }
       },
-      "blocks": {
-        "title": {
-          "name": "Otsikko",
-          "settings": {
-            "show_date": {
-              "label": "Näytä päivämäärä"
-            },
-            "show_author": {
-              "label": "Näytä tekijä"
-            }
-          }
-        },
-        "summary": {
-          "name": "Ote"
-        },
-        "link": {
-          "name": "Linkki"
-        }
-      },
       "presets": {
         "name": "Blogijulkaisut"
       }
@@ -763,7 +735,8 @@
           "label": "Pinoa kuvat mobiilissa"
         },
         "adapt_height_first_image": {
-          "label": "Mukauta osion korkeus ensimmäisen kuvan kokoon"
+          "label": "Mukauta osion korkeus ensimmäisen kuvan kokoon",
+          "info": "Korvaa kuvabannerin korkeusasetuksen"
         },
         "show_text_box": {
           "label": "Näytä tekstiruutu työpöydällä"
@@ -776,6 +749,19 @@
         },
         "show_text_below": {
           "label": "Näytä teksti kuvien alapuolella"
+        },
+        "image_height": {
+          "label": "Kuvabannerin korkeus",
+          "options__1": {
+            "label": "Pieni"
+          },
+          "options__2": {
+            "label": "Keskisuuri"
+          },
+          "options__3": {
+            "label": "Suuri"
+          },
+          "info": "Saat parhaat tulokset käyttämällä kuvaa, jonka kuvasuhde on 2:3. [Lisätietoja](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
         }
       },
       "blocks": {
@@ -953,9 +939,6 @@
         "content": {
           "name": "Sisältö"
         },
-        "social_sharing": {
-          "name": "sosiaalisen median jakopainikkeet"
-        },
         "share": {
           "name": "Jaa",
           "settings": {
@@ -1015,25 +998,6 @@
             "label": "Suuri"
           },
           "info": "Saat parhaat tulokset käyttämällä kuvaa, jonka kuvasuhde on 2:3. [Lisätietoja](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
-        }
-      },
-      "blocks": {
-        "title": {
-          "name": "Otsikko",
-          "settings": {
-            "show_date": {
-              "label": "Näytä päivämäärä"
-            },
-            "show_author": {
-              "label": "Näytä tekijä"
-            }
-          }
-        },
-        "summary": {
-          "name": "Ote"
-        },
-        "link": {
-          "name": "Linkki"
         }
       }
     },
@@ -1122,9 +1086,6 @@
         },
         "show_image_outline": {
           "label": "Näytä kuvan reuna"
-        },
-        "enable_sort": {
-          "label": "Ota lajittelu käyttöön"
         },
         "collapse_on_larger_devices": {
           "label": "Pienennä suuremmilla näytöillä"
@@ -1662,9 +1623,6 @@
       "settings": {
         "heading": {
           "label": "Otsikko"
-        },
-        "header__1": {
-          "content": "Tuotesuositukset"
         },
         "header__2": {
           "content": "Tuotekortti"
