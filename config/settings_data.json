@@ -119,14 +119,6 @@
             }
           },
           "block_order": [
-<<<<<<< HEAD
-            "menu",
-            "text"
-          ],
-          "settings": {
-            "color_scheme": "accent-1"
-          }
-=======
             "footer-0",
             "footer-1",
             "footer-2"
@@ -143,7 +135,6 @@
         },
         "main-password-footer": {
           "type": "main-password-footer"
->>>>>>> 3b47609413f1b4e9bb407d4e19d88717a21a5700
         }
       }
     }
