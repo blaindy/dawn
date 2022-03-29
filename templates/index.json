@@ -53,27 +53,6 @@
         "heading": {
           "type": "heading",
           "settings": {
-<<<<<<< HEAD
-            "heading": "Image with text"
-          }
-        },
-        "text": {
-<<<<<<< HEAD
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-=======
-          "type": "text"
->>>>>>> 3b47609413f1b4e9bb407d4e19d88717a21a5700
-=======
             "heading": "Talk about your brand",
             "heading_size": "h1"
           }
@@ -83,7 +62,6 @@
           "settings": {
             "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
->>>>>>> d36a504c5032988d6cdb75baf7aae4af4a80555f
         }
       },
       "block_order": [
