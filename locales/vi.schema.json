@@ -268,7 +268,7 @@
           "options__4": {
             "label": "Trên cùng bên phải"
           },
-          "label": "Vị trí thẻ sản phẩm"
+          "label": "Vị trí trên thẻ"
         },
         "sale_badge_color_scheme": {
           "label": "Bảng màu huy hiệu giảm giá"
@@ -282,7 +282,8 @@
       "name": "Nút"
     },
     "variant_pills": {
-      "name": "Ô chọn mẫu mã"
+      "name": "Ô chọn mẫu mã",
+      "paragraph": "Ô chọn mẫu mã là một cách để hiển thị mẫu mã sản phẩm. [Tìm hiểu thêm](https://help.shopify.com/en/manual/online-store/themes/theme-structure/page-types#variant-picker-block)"
     },
     "inputs": {
       "name": "Thông tin đầu vào"
