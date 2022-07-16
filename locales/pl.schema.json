@@ -326,7 +326,7 @@
           "header": "Szuflada koszyka",
           "collection": {
             "label": "Kolekcja",
-            "info": "Widoczny, gdy szuflada koszyka jest pusta"
+            "info": "Widoczne, gdy szuflada koszyka jest pusta"
           }
         }
       }
@@ -383,6 +383,18 @@
           "settings": {
             "text": {
               "label": "Tekst"
+            },
+            "text_alignment": {
+              "label": "Wyrównanie tekstu",
+              "options__1": {
+                "label": "Lewa strona"
+              },
+              "options__2": {
+                "label": "Środek"
+              },
+              "options__3": {
+                "label": "Prawa strona"
+              }
             },
             "link": {
               "label": "Link"
@@ -2736,6 +2748,27 @@
       "presets": {
         "name": "Zwijana treść"
       }
+    },
+    "main-account": {
+      "name": "Konto"
+    },
+    "main-activate-account": {
+      "name": "Aktywacja konta"
+    },
+    "main-addresses": {
+      "name": "Adresy"
+    },
+    "main-login": {
+      "name": "Zaloguj"
+    },
+    "main-order": {
+      "name": "Zamówienie"
+    },
+    "main-register": {
+      "name": "Rejestracja"
+    },
+    "main-reset-password": {
+      "name": "Resetowanie hasła"
     }
   }
 }

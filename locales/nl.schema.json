@@ -326,7 +326,7 @@
           "header": "Winkelwagenoptie",
           "collection": {
             "label": "Collectie",
-            "info": "Zichtbaar wanneer winkelwagenoptie leeg is"
+            "info": "Zichtbaar wanneer winkelwagenoptie leeg is."
           }
         }
       }
@@ -383,6 +383,18 @@
           "settings": {
             "text": {
               "label": "Tekst"
+            },
+            "text_alignment": {
+              "label": "Tekstuitlijning",
+              "options__1": {
+                "label": "Links"
+              },
+              "options__2": {
+                "label": "Midden"
+              },
+              "options__3": {
+                "label": "Rechts"
+              }
             },
             "link": {
               "label": "Link"
@@ -2736,6 +2748,27 @@
       "presets": {
         "name": "Inklapbare content"
       }
+    },
+    "main-account": {
+      "name": "Account"
+    },
+    "main-activate-account": {
+      "name": "Accountactivering"
+    },
+    "main-addresses": {
+      "name": "Adressen"
+    },
+    "main-login": {
+      "name": "Inloggen"
+    },
+    "main-order": {
+      "name": "Bestelling"
+    },
+    "main-register": {
+      "name": "Registratie"
+    },
+    "main-reset-password": {
+      "name": "Wachtwoord opnieuw instellen"
     }
   }
 }

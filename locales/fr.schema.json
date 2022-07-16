@@ -326,7 +326,7 @@
           "header": "Panier coulissant",
           "collection": {
             "label": "Collection",
-            "info": "Visible lorsque le panier coulissant est vide"
+            "info": "Visible lorsque le panier coulissant est vide."
           }
         }
       }
@@ -383,6 +383,18 @@
           "settings": {
             "text": {
               "label": "Texte"
+            },
+            "text_alignment": {
+              "label": "Alignement du texte",
+              "options__1": {
+                "label": "Gauche"
+              },
+              "options__2": {
+                "label": "Centre"
+              },
+              "options__3": {
+                "label": "Droite"
+              }
             },
             "link": {
               "label": "Lien"
@@ -2736,6 +2748,27 @@
       "presets": {
         "name": "Contenu réductible"
       }
+    },
+    "main-account": {
+      "name": "Compte"
+    },
+    "main-activate-account": {
+      "name": "Activation du compte"
+    },
+    "main-addresses": {
+      "name": "Adresses"
+    },
+    "main-login": {
+      "name": "Se connecter"
+    },
+    "main-order": {
+      "name": "Commande"
+    },
+    "main-register": {
+      "name": "Inscription"
+    },
+    "main-reset-password": {
+      "name": "Réinitialisation du mot de passe"
     }
   }
 }

@@ -326,7 +326,7 @@
           "header": "Finestra del carrello",
           "collection": {
             "label": "Collezione",
-            "info": "Visibile quando la finestra del carrello è vuota"
+            "info": "Visibile quando la finestra del carrello è vuota."
           }
         }
       }
@@ -383,6 +383,18 @@
           "settings": {
             "text": {
               "label": "Testo"
+            },
+            "text_alignment": {
+              "label": "Allineamento testo",
+              "options__1": {
+                "label": "A sinistra"
+              },
+              "options__2": {
+                "label": "Al centro"
+              },
+              "options__3": {
+                "label": "A destra"
+              }
             },
             "link": {
               "label": "Link"
@@ -2736,6 +2748,27 @@
       "presets": {
         "name": "Contenuto comprimibile"
       }
+    },
+    "main-account": {
+      "name": "Account"
+    },
+    "main-activate-account": {
+      "name": "Attivazione account"
+    },
+    "main-addresses": {
+      "name": "Indirizzi"
+    },
+    "main-login": {
+      "name": "Accedi"
+    },
+    "main-order": {
+      "name": "Ordine"
+    },
+    "main-register": {
+      "name": "Registrazione"
+    },
+    "main-reset-password": {
+      "name": "Reimpostazione della password"
     }
   }
 }
